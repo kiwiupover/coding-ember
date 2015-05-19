@@ -1,6 +1,100 @@
 {{#layout}}
-  <a target="_blank" href="{{page.documentationUrl}}">
-    Docs
-  </a>
-{{/layout}}
 
+    <!-- header start -->
+
+<a href="http://blog.base68.com" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/df_logo.jpg)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+
+        <div class="article-image">
+          <div class="post-image-image" style="background-image: url({{page.imageUrl}})">
+            Article Image
+          </div>
+          <div class="post-meta">
+            <h1 class="post-title">{{page.title}}</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url({{page.authorImage}})">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Dave Laird</h4>
+              on
+              <time datetime="2014-09-21 00:00">21 Sep 2014</time>
+              <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
+            </div>
+            <div style="text-align:center">
+              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <h1>{{page.title}}</h1>
+
+<p>I never thought that this will ever happen. I hoped for it, but I never expected this. The mediator theme I ported is actually used by some one else and I’m very proud of this. My personal efforts that I have mainly done for my self are now helping other people creating their blog. But with this came also the responsibility to help others with their blog using the theme. I have lot of fun doing this. But in general I&#39;m proud of my work.</p>
+{{#highlight javascript}}
+module.exports =  {
+  title: 'Home'
+, documentationUrl: 'http://broccoli-taco.com/documentation/'
+, imageUrl: 'static/assets/images/park.jpg'
+, authorImage: 'static/assets/images/author.jpg'
+};
+{{/highlight}}
+
+<p>I never thought that this will ever happen. I hoped for it, but I never expected this. The mediator theme I ported is actually used by some one else and I’m very proud of this. My personal efforts that I have mainly done for my self are now helping other people creating their blog. But with this came also the responsibility to help others with their blog using the theme. I have lot of fun doing this. But in general I&#39;m proud of my work.</p>
+
+        </section>
+        <footer class="post-footer">
+          <section class="share">
+
+
+                <a class="icon-twitter" href="http://twitter.com/share?text=Proud&amp;url=http://blog.base68.com/2014/09/21/proud"
+                  onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+                <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+                </a>
+
+          </section>
+        </footer>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url(/assets/images/author.jpg)">Blog Logo</div>
+              <h4>Dirk Fabisch</h4>
+              <p class="bio"></p>
+              <hr>
+              <p class="published">Published <time datetime="2014-09-21 00:00">21 Sep 2014</time></p>
+            </section>
+          </div>
+
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <footer class="site-footer">
+              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
+              <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+              <div class="inner">
+                <section class="copyright">All content copyright <a href="/">Dirk Fabisch</a> &copy; 2015<br>All rights reserved.</section>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </article>
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image"  style="background-image: url(http://blog.base68.com/assets/images/background_image.jpg)">
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">The Base</h1>
+        <h2 class="blog-description">Things that came in my mind...
+</h2>
+        <a href="/" class="btn">Back to Overview</a>
+      </div>
+    </div>
+
+
+{{/layout}}

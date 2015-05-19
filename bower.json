@@ -1,0 +1,15 @@
+{
+  "name": "codingember",
+  "version": "0.0.0",
+  "authors": [
+    "Dave Laird kiwiupover@gmail.com"
+  ],
+  "description": "a blog",
+  "keywords": [
+    "blog"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bourbon": "~4.2.2"
+  }
+}
