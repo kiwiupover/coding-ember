@@ -1,6 +1,8 @@
 module.exports =  {
-  title: 'Home'
-, documentationUrl: 'http://broccoli-taco.com/documentation/'
-, imageUrl: 'static/assets/images/park.jpg'
-, authorImage: 'static/assets/images/author.jpg'
+  title: 'Get it going!',
+  subtitle: 'This is the subtitle for the story',
+  imageUrl: 'static/assets/images/park.jpg',
+  authorImage: 'static/assets/images/dave-laird-small.jpg',
+  authorName: 'Dave Laird (kiwiupover)',
+  publishDate: 'Tuesday May 18th 2015'
 };
